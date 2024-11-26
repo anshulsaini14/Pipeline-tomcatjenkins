@@ -3,6 +3,9 @@ pipeline {
     tools {
         maven 'Maven-a'
     }
+    triggers {
+      pollSCM 'H/3 * * * *'
+    }
     stages {
         stage("Test") {
             steps {
