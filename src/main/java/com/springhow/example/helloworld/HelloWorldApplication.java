@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return " This is updated Jenkins Pipeline Project for automatic update.";
+        return " This is updated Jenkins Pipeline Project for automatic update of Poll SCM.";
     }
 
 }
